@@ -605,6 +605,105 @@ header .search-bar-container label:hover{
 }
 
 
+/* Registration Page */
+
+.regContainer{
+    font-size: 15px;
+    background: whitesmoke;
+    width: 500px;
+    overflow: hidden;
+    padding: 25px;
+    margin: 50px auto 0;
+    border-top: 5px solid var(--orange);
+    box-shadow: 5px 5px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.regContainer h1{
+    font-size: 30px;
+    line-height: 30px;
+    padding: 30px;
+    text-align: center;
+    /* text-decoration: dotted; */
+}
+
+
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+    /* border: 1px solid black; */
+    /* height: 100%; */
+}
+
+.icon{
+    padding: 8px 11px;
+}
+
+.userBox{
+    width: 45%;
+    padding: 8px 0 8px 40px;
+}
+
+.input-name span{
+    margin-left: 35px;
+}
+
+.contactBox{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+
+.input-name i{
+     position: absolute;
+     font-size: 18px;
+     color: var(--orange);
+     border-right: 1px solid #cccccc;
+}
+.email{
+    padding: 8px;
+}
+
+.radio-Btn{
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.country{
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    padding: 0px 15px;
+    cursor: pointer;
+}
+
+
+.buttonSub{
+    background-color: var(--orange);
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+@media (max-width: 480px){
+    .regContainer{
+        width: 100%;
+        border: 2px solid;
+    }
+    .input-name{
+        margin-bottom: -10px;
+    }
+    .userBox{
+        width: 100%;
+        padding: 8px 0 8px 40px;
+        margin-bottom: 10px;
+    }
+    .input-name span{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
 
 
 
